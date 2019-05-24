@@ -1,0 +1,332 @@
+
+/*Uniform Boxes*/
+.box {
+    border-color: #C0C0C0;
+    border-style: ridge;
+    border-width: 8px;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.notebox {
+    width: 90%;
+    height: 60px;
+    border-color: #C0C0C0;
+    border-style: ridge;
+    border-width: 8px;
+}
+
+/*Branded Boxes*/
+.sky-q-box
+
+
+.uod-box
+
+
+.sky-sports-box
+
+
+.sky-cinema-box
+
+
+.sky-arts-box
+
+
+.sky-kids-box
+
+
+.sky-atlantic-box
+
+
+.sky-witness-box
+
+
+.sky-go-box
+
+
+/*Accordion*/
+body{
+	font-family: 'Roboto', sans-serif;
+	/*background-image: url(img/code-institute.jpg);
+	background-size: cover;
+	color: #ffffff;*/
+	background-color: #191970;
+}
+
+.header{
+	padding: 10px 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+h1{
+	font-size: 3em;
+	text-align: center;
+}
+h2{
+	font-size: 1em;
+	text-align: center;
+	font-family:'Ubuntu';
+}
+p{
+	font-size: .9rem;
+}
+
+div{
+	border-radius: 4px;
+}
+
+.card_image{
+	width: auto;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.stream1, .stream2, .stream3 {
+    background-color: #00008B;
+}
+
+.bottom_button{
+	display: flex;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;
+	background-color:#000000;
+	text-align: center;
+	padding: 0em .75em;
+	text-decoration: none;
+	color: #fff;
+	margin: auto;
+	margin-bottom: 5px;
+	
+}
+
+.card_bottom{
+	display: flex;
+	flex-flow:column;
+}
+.card_head{
+	flex:0;
+	text-align: center;
+}
+.card_para{
+	flex:1 0 auto;
+	display: none;
+	color: #000000;
+}
+
+/*.card li {
+	display: none
+}*/
+
+.highlight {
+	background-color: pink;
+}
+.eir-network {
+	background-color: #D81B60;
+	color: white;
+}
+
+.four-columns {
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.virgin-network {
+	background-color: silver;
+	color: red;
+	padding-right: 20px;
+	padding-left: 5px;
+}
+
+.virgin-network .card {
+	background-color: #FAFAFA;
+	
+}
+
+
+.vodafone-section{
+	background-color: red;
+	color: #FAFAFA;
+}
+
+.three-network{
+	background-color: #800080;
+	color: #FAFAFA;
+}
+
+.bb-tv{
+	background-color: #A9A9A9;
+	color: #FAFAFA;
+}
+#container
+{
+	display: flex;		/* makes container a flexbox*/
+	flex-flow: row wrap; 	/* layout the boxes in rows and wrap them*/
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1050px;	
+}
+#logo{
+	width: 800px;
+	margin: auto;
+}
+
+.card{
+	flex:1; /* */
+	display: flex;	/* make the contents controllable by flexbox*/
+	flex-flow:column;	/* */
+	min-width: 240px; /**/
+	margin: 10px;
+	padding: 20px;
+	color: #000000;
+}
+.card > img {
+	max-width: 225px;
+	
+}
+
+.the-hardware > img {
+	width: auto;
+	
+}
+
+.the-packages > img {
+	width: auto;
+	
+}
+
+.the-comp > img {
+	width: auto;
+	
+}
+
+.the-addons > img {
+	width: auto;
+	
+}
+
+.the-channels {
+	width: auto;
+		
+}
+
+.the-apps {
+	width: auto;
+	
+}
+
+#my_footer{
+	width:100%;
+	text-align: center;
+}
+#copyright{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+.banner {
+    width: 100%;
+    height: 50px;
+    background-color: #A9A9A9;
+}
+
+.tickbox {
+	width: 20px;
+	height: 20px;
+}
+
+.call-purpose {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #FAFAFA;
+}
+
+.call-checkboxes {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #191970;
+	color: #FAFAFA;
+	font-size: 16px;
+}
+
+.call-checkboxes checkbox {
+	margin: 20px;
+}
+
+.check-textbox {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+}
+
+button, input {
+	height: 30px;
+	text-align: center;
+}
+
+#list {
+	margin-left: 80px;
+	margin-right: 10px;
+	height: 45px;
+	width: 70%;
+	align-items: center;
+	text-align: left;
+}
+/*************************
+Navigation
+**************************/
+
+nav{
+	font-family: roboto;
+	background-color: #eee;
+	margin: 30px auto;
+	width: 100%;
+}
+
+#logoNav{
+	flex:6;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration:underline;
+}
+.border{
+	border: solid 5px #ccc;
+}
+
+
+@media screen and (max-width: 700px){
+	ul{
+		flex-flow: column;
+		align-items:center;
+	}
+	li{
+		font-size: 2em;
+	}
+}
+
+body {
+    background-color: #00008B;
+}

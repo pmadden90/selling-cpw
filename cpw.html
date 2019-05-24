@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conversation Tool</title>
+    <link rel='stylesheet' href='css/main.css' />
+    <link rel='stylesheet' href='scss/main.scss' />
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Dosis+Ubuntu' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/checkbox.js"></script>
+</head>
+
+<body>
+
+    <div class="row four-columns">
+        <div class="col-md-3 col-lg-3 vodafone-section">
+            <h2>Vodafone</h2>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/vodafone-logo.jpg" alt="Vodafone Pay As You Go">
+                <div class="card_bottom">
+                    <h2>PAYG</h2>
+                    <ul style="display: none;">
+                        <h4>€20 top up every 28 days</h4>>
+                        <li>Choose between the following - </li>
+                        <li>Unlimited Vodafone minutes + 100 other network minutes, unlimited Vodafone texts + 100 other network texts and 6GB data (4G) or</li>
+                        <li>Unlimited calls and texts and 1GB data (4G)</li>
+                        <br>
+                        <h4>€30 top up every 28 days</h4>
+                        <li>Unlimited minutes + 100 international minutes, unlimited texts and 8GB data (4G)</li>
+                    </ul>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/vodafone-logo.jpg" alt="Vodafone Billpay">
+                <div class="card_bottom">
+                    <h2>Billpay</h2>
+                    <ul style="display: none;">
+                        <h4>Red Standard - €40</h4>
+                        <li>24 month contract</li>
+                        <li>Unlimited Vodafone minutes + 100 other network minutes</li>
+                        <li>Unlimited any network texts</li>
+                        <li>10GB data (4G)</li>
+                        <li>4G roaming across 32 European countries</li>
+                        <li><em>Bonus</em> - 6 months of Sky Sports Mobile TV</li>
+                        <br>
+                        <h4>Red Complete - €60</h4>
+                        <li>24 month contract</li>
+                        <li>Unlimited calls and texts</li>
+                        <li>100 international minutes</li>
+                        <li>30GB data (4G)</li>
+                        <li>4G roaming across 32 European countries</li>
+                        <li><em>Bonus</em> - 6 months of Sky Sports Mobile TV</li>
+                        <br>
+                        <h4>Red Max - €80</h4>
+                        <li>24 month contract</li>
+                        <li>Unlimited calls and texts</li>
+                        <li>500 international minutes</li>
+                        <li>60GB data (4G)</li>
+                        <li>4G roaming across 32 European countries</li>
+                        <li><em>Bonus</em> - 6 months of Sky Sports Mobile TV</li>
+                    </ul>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/vodafone-simo.jpg" alt="Vodafone Sim Only">
+                <div class="card_bottom">
+                    <h2>Sim Only</h2>
+                    <ul style="display: none;">
+                        <h4>Red Complete SIMO - €25*</h4>
+                        <li>*€25 for first 6 months, €35 thereafter</li>
+                        <li>12 month contract</li>
+                        <li>Unlimited calls and texts</li>
+                        <li>20GB data (4G)</li>
+                        <li><em>Extras</em> - 100 international minutes and texts</li>
+                        <br>
+                        <h4>Red Max - €35**</h4>
+                        <li>**€35 for first 6 months, €45 thereafter</li>
+                        <li>Unlimited calls and texts</li>
+                        <li>50GB data (4G)</li>
+                        <li><em>Extras</em> - 500 international minutes and texts</li>
+                    </ul>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+
+            <!--<div class="card stream3">
+                <img class="card_image" src="media/img/sky-plus.jpg" alt="Sky Plus">
+                <h2>Sky+</h2>
+                <ul style="display: none;">
+                    <li>185 hours SD recording/60 hours HD recording</li>
+                    <li>On Demand content available (subscription dependent) if connected to broadband</li>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/qms.png" alt="Sky Plus Multiscreen">
+                <h2>Sky+ MS</h2>
+                <div class="card_bottom">
+                    <ul style="display: none;">
+                        <li>€17.50 per month per box</li>
+                    </ul>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/sky-hub.png" alt="Sky Hub">
+                <div class="card_bottom">
+                    <h2>Sky Hub</h2>
+                    <ul style="display: none;">
+                        <li>Our Sky Q Hub uses the latest Wi-Fi technology to deliver up to 3x faster speeds than the previous generation of routers</li>
+                        <li>Our Sky Smart Signal Technology optimises your Wi-Fi to ensure you always get the best connection</li>
+                        <li>Connect up to 64 devices at once so you can share, stream and download all at the same time</li>
+                    </ul>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div> Sky TV Details-->
+        </div>
+        <div class="col-md-3 col-lg-3 three-network">
+            <h2>3</h2>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/3-network.jpg" alt="Three Pay As You Go">
+                <h2>PAYG</h2>
+                <ul style="display: none;">
+                    <h4>€20 top up every 28 days</h4>
+                    <li>Unlimited texts - any network</li>
+                    <li>Unlimited 3 to 3 calls</li>
+                    <li>All you can eat data*</li>
+                    <li>Keep the €20 credit for use for calling other networks</li>
+                    <li>6GB data for EU Roaming</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/3-network.jpg" alt="Three Billpay">
+                <h2>Billpay</h2>
+                <ul style="display: none;">
+                    <h4>Mini Flex Max - €30</h4>
+                    <li>24 month contract</li>
+                    <li>100 flexi-units</li>
+                    <li>Unlimited data*</li>
+                    <li>8GB data - EU Roaming(4G)</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                    <br>
+                    <h4>Classic Flex Max - €45</h4>
+                    <li>24 month contract</li>
+                    <li>350 flexi-units</li>
+                    <li>Unlimited data</li>
+                    <li>8GB data - EU Roaming(4G)</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                    <br>
+                    <h4>Unlimited Flex - €60</h4>
+                    <li>24 month contract</li>
+                    <li>Unlimited flexi-units</li>
+                    <li>Unlimited data</li>
+                    <li>9GB data - EU Roaming(4G)</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                </ul>
+
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/3-sim.jpg" alt="Three Sim Only">
+                <h2>Sim Only</h2>
+                <ul style="display: none;">
+                    <h4>30 Days SIMO - €30</h4>
+                    <li>12 month contract</li>
+                    <li>Unlimited flexi-units</li>
+                    <li>Unlimited data</li>
+                    <li>9GB data - EU Roaming(4G)</li>
+                    <li><em>Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+            <!--<div class="card stream3">
+                <img class="card_image" src="media/img/sky-sports.png" alt="Sky Sports">
+                <h2>Sports</h2>
+                <ul style="display: none;">
+                    <li>€40 per month (or €49 combined with Cinema)</li>
+                    <li>11 dedicated sports channels - including football, golf, F1, cricket</li>
+                    <li>Also home to three of US's major sports - NBA, NFL and MLS</li>
+                    <li>Exclusive GAA matches</li>
+                    <li>159 Premier League games</li>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/sky-cinema.jpg" alt="Sky Cinema">
+                <h2>Cinema</h2>
+                <ul style="display: none;">
+                    <li>€29 per month (or €49 combined with Sports)</li>
+                    <li>11 dedicated channels - 9 permanent and 2 pop-ups</li>
+                    <li>Over 1200 movies to watch on demand</li>
+                    <li>New premiere every day</li>
+                </ul>
+
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/BoxSets.jpg" alt="Sky Ultimate On Demand">
+                <h2>UOD</h2>
+                <ul style="display: none;">
+                    <li>€16 per month</li>
+                    <li>Access over 500 boxsets and Netflix</li>
+                    <li>Use existing Netflix profile</li>
+                    <li>Currently 15% cheaper combined than having both seperately</li>
+                    <li>Available currently - Game Of Thrones, Handmaid's Tale, Westworld, Nightflyers, Atlanta, Veep, You, The Crown, The Punisher, Umbrella Academy (any other Netflix series you'd like to mention)</li>
+                </ul>
+
+                <button class="bottom_button">Show</button>
+            </div>-->
+
+        </div>
+        <div class="col-md-3 col-lg-3 eir-network">
+            <h2>Eir</h2>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/eir-logo.png" alt="Eir Pay As You Go">
+                <h2>PAYG</h2>
+                <ul style="display: none;">
+                    <h4>€20 top up every 28 days</h4>
+                    <li>Unlimited texts - any network</li>
+                    <li>Unlimited 3 to 3 calls</li>
+                    <li>All you can eat data*</li>
+                    <li>Keep the €20 credit for use for calling other networks</li>
+                    <li>6GB data for EU Roaming</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/eir-logo.png" alt="Eir Billpay">
+                <h2>Billpay</h2>
+                <ul style="display: none;">
+                    <h4>Mini Flex Max - €30</h4>
+                    <li>24 month contract</li>
+                    <li>100 flexi-units</li>
+                    <li>Unlimited data*</li>
+                    <li>8GB data - EU Roaming(4G)</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                    <br>
+                    <h4>Classic Flex Max - €45</h4>
+                    <li>24 month contract</li>
+                    <li>350 flexi-units</li>
+                    <li>Unlimited data</li>
+                    <li>8GB data - EU Roaming(4G)</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                    <br>
+                    <h4>Unlimited Flex - €60</h4>
+                    <li>24 month contract</li>
+                    <li>Unlimited flexi-units</li>
+                    <li>Unlimited data</li>
+                    <li>9GB data - EU Roaming(4G)</li>
+                    <li><em>*Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                </ul>
+
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/eir-sim.png" alt="Eir Sim Only">
+                <h2>Sim Only</h2>
+                <ul style="display: none;">
+                    <h4>30 Days SIMO - €30</h4>
+                    <li>12 month contract</li>
+                    <li>Unlimited flexi-units</li>
+                    <li>Unlimited data</li>
+                    <li>9GB data - EU Roaming(4G)</li>
+                    <li><em>Note</em> - Data usage over 60GB within monthly billing cycle and effects other users, 3 may limit service</li>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+
+        </div>
+        <div class="col-md-3 col-lg-3 virgin-network">
+            <h2>Virgin Media</h2>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/vm-logo.jpg" alt="Virgin Media Pay As You Go">
+                <h2>PAYG</h2>
+                <ul style="display: none;">
+                    <h4>N/A</h4>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/vm-logo.jpg" alt="Three Billpay">
+                <h2>Billpay</h2>
+                <ul style="display: none;">
+                    <h4>N/A</h4>
+                </ul>
+
+                <button class="bottom_button">Show</button>
+            </div>
+            <div class="card stream2">
+                <img class="card_image" src="media/img/virgin-sim.png" alt="Virgin Sim Only">
+                <h2>Sim Only</h2>
+                <ul style="display: none;">
+                    <h4>30 Days SIMO - €15</h4>
+                    <li>250 minutes</li>
+                    <li>250 texts</li>
+                    <li>2GB data</li>
+                    <li><em>Note</em> - Free for first 3 months for Virgin customers and €25 thereafter</li>
+                    <br>
+                    <h4>30 Days SIMO - €25</h4>
+                    <li>Unlimited minutes</li>
+                    <li>Unlimited texts</li>
+                    <li>Unlimitied data</li>
+                    <li><em>Note</em> - €5 for first 3 months for Virgin customers and €25 thereafter</li>
+                </ul>
+                <button class="bottom_button">Show</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="banner">
+            <h2>Broadband & TV</h2>
+        </div>
+    </div>
+    <div class="row bb-tv">
+        <div class="col-md-12 col-lg-12">
+            <h2>Vodafone</h2>
+            <div class="card stream3">
+                <img class="card_image" src="media/img/vodafone-logo.jpg" alt="Vodafone Broadband & TV">
+                <h2>Plans</h2>
+                <div class="row" style="display: none;">
+                    <div class="col-md-4">
+                        <h4>Simply BB</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €45 thereafter</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Simply BB & Unlimited Irish Landline Calls</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €50 thereafter</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Simply BB & Unlimited Irish Calls</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €60 thereafter</li>
+                        <li>Includes unlimited calls to Irish landlines and mobiles</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Simply BB & Vodafone TV</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €70 thereafter</li>
+                        <li>Includes unlimited calls to Irish landlines and mobiles</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                        <li>TV - 58 channels</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Simply BB, Vodafone TV & Unlimited Irish Landline Calls</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €75 thereafter</li>
+                        <li>Includes unlimited calls to Irish landlines</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                        <li>TV - 58 channels</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Simply BB, Vodafone TV & Unlimited Irish Calls</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €80 thereafter</li>
+                        <li>Includes unlimited calls to Irish landlines and mobiles</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                        <li>TV - 58 channels</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Simply BB & Vodafone TV Plus</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €80 thereafter</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                        <li>TV - 86 channels</li>
+                        <li><em>Extras</em> - pick between Eir Sport Pack or Multiroom</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Simply BB, Vodafone TV & Unlimited Irish Calls</h4>
+                        <li>18 month contract</li>
+                        <li>€40 for first 6 months, €85 thereafter</li>
+                        <li>Includes unlimited calls to Irish landlines and mobiles</li>
+                        <li>Line speed up to 100 Megabits per second</li>
+                        <li>TV - 86 channels</li>
+                        <li><em>Extras</em> - pick between Eir Sport Pack or Multiroom</li>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Vodafone TV Add-Ons</h4>
+                        <li>HD Channels - included in all TV packs</li>
+                        <li>Sky Sports - €40 per month (first 6 months €20 per month)</li>
+                        <li>Sky Cinema - €24 per month</li>
+                        <li>Sky Sports & Cinema - €49 per month (first 6 months €24.50 per month)</li>
+                        <li>Eir Sports Pack - €20 per month</li>
+                        <li>Multiroom - €5 per month</li>
+                    </div>
+                </div>
+                <button class="bottom_button">Show</button>
+            </div>
+
+        </div>
+        <div class="col-md-12 col-lg-12">
+            <h2>Sky</h2>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/sky-logo.png" alt="Sky">
+                <div class="card_bottom">
+                    <h2>Plans</h2>
+                    <div class="row" style="display: none;">
+                        <div class="col-md-4">
+                            <h4>TV</h4>
+                            <li>12 month contract</li>
+                            <li>Sky Entertainment - base package - €32 (check 
+                            tariff guide for potential special offers)</li>
+                            <li>Add Ons available for €8 each - HD, Kids, Boxsets</li>
+                            <li>Add On - Ultimate on Demand (Netflix + Boxsets
+                            (library of 450 tv series)) for €16</li>
+                            <li>Add On - Multiscreen for €17.50</li>
+                            <li>Add On - Sky Sports €40, Cinema €29 or both for €49
+                            (check tariff guide for potential special offers)</li>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Broadband & Phone</h4>
+                            <li>12 month contract</li>
+                            <li>€40 per month</li>
+                            <li>Includes unlimited calls to Irish landlines after
+                            7pm until 7am following day</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>TV, BB & Phone</h4>
+                            <li>12 month contract</li>
+                            <li>€59 per month - guaranteed for 2 years (if 
+                            signed up to before offer ends)</li>
+                            <li>Includes unlimited calls to Irish landlines after
+                            7pm until 7am following day</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Sky Fibre To The Home Internet</h4>
+                            <li>12 month contract</li>
+                            <li>Dependent on being in FTTH area (Open Eir/SIRO -
+                            use Eircode to find)</li>
+                            <li>Check tariff guide as price depends on chosen speed and whether it is on 
+                            Open Eir or SIRO network</li>
+                            <li>VOIP is optional</li>
+                            <li>Line speed up to 1000 Megabits per second if available in your area</li>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Sky Q Boxes</h4>
+                            <li>Pay for installation and you won't be charged for 
+                            standard engineer visits in future as Q customer</li>
+                            <li>Voice search remote, Netflix, Youtube, Spotify 
+                            available (Netflix and Spotify access dependent on 
+                            subscription)</li>
+                            <li>1 Terabyte Box - record 3 shows while watching a 
+                            4th with 500 hours of recording space</li>
+                            <li>2 Terabyte Box - record 6 shows while watching a
+                            7th with 1000 hours of recording space</li>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Benefits of Sky Q Multiscreen</h4>
+                            <li>Can be moved from room to room</li>
+                            <li>Recordings from main box will be available on Multiscreen box</li>
+                            <li>Can watch different channels to main box</li>
+                        </div>
+                    </div>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-12 col-lg-12">
+            <h2>Eir</h2>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/eir-logo.png" alt="Sky Go">
+                <div class="card_bottom">
+                    <h2>Plans</h2>
+                    <div class="row" style="display: none;">
+                        <div class="col-md-3">
+                            <h4>Broadband & Phone</h4>
+                            <li>12 month contract</li>
+                            <li>€39.99 for 12 months, €59.99 thereafter</li>
+                            <li>Includes off peak calls to Irish landlines</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>BB, Phone & Mobile</h4>
+                            <li>24 month contract</li>
+                            <li>€60 for first 12 months, €80 thereafter</li>
+                            <li>Includes off peak calls to Irish landlines</li>
+                            <li>Includes Eir Mobile Connect - unlimited calls, texts and 25GB of data</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>BB, Phone & TV</h4>
+                            <li>18 month contract</li>
+                            <li>€55 for first 12 months, €75 thereafter</li>
+                            <li>Includes off peak calls to Irish landlines</li>
+                            <li>Includes 50 tv channels and Eir Movies, Eir Sports and Eir Go</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>BB, Phone, Mobile & TV</h4>
+                            <li>24 month contract</li>
+                            <li>€75 for first 6 months, €95 thereafter</li>
+                            <li>Includes off peak calls to Irish landlines</li>
+                            <li>Includes Eir Mobile Connect - unlimited calls, texts and 25GB of data</li>
+                            <li>Includes 50 tv channels and Eir Movies, Eir Sports and Eir Go</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                        </div>
+                        <div class="col-md-12">
+                        <h4>TV Add-Ons</h4>
+                            <li>Sky Cinema - €24</li>
+                            <li>Sky Sports - €40</li>
+                            <li>Sky Sports & Cinema - €49</li>
+                            <li>Multiroom - €5</li>
+                            <li>HD - €5</li>
+                            <li>Unlimited Calls - €9.99</li>
+                        </div>
+                    </div>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-12">
+            <h2>Virgin Media</h2>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/vm-logo.jpg" alt="Sky Go">
+                <div class="card_bottom">
+                    <h2>Plans</h2>
+                    <div class="row" style="display: none;">
+                        <div class="col-md-3">
+                            <h4>Freedom TV</h4>
+                            <li>30 day contract</li>
+                            <li>€20 per month</li>
+                            <li>20 channels + TV on demand</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Freedom BB & Anytime Mobile</h4>
+                            <li>30 day contract</li>
+                            <li>€59 per month</li>
+                            <li>Free calls to Irish and international landlines (22 destinations)</li>
+                            <li>Unlimited internet usage</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Naked Broadband</h4>
+                            <li>30 day contract</li>
+                            <li>€39 per month</li>
+                            <li>Includes unlimited calls to Irish landlines and mobiles</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                            <li>Unlimited internet usage</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>240Mb BB & Anytime Mobile</h4>
+                            <li>18 month contract</li>
+                            <li>€39 for first 6 months, €59 thereafter</li>
+                            <li>Free calls to Irish and international landlines (22 destinations)</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                            <li>TV - 58 channels</li>
+                            <li>Unlimited internet usage</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>360Mb BB & Mobile World</h4>
+                            <li>18 month contract</li>
+                            <li>€44 for first 6 months, €64 thereafter</li>
+                            <li>Free calls to Irish and international mobiles (22 destinations)</li>
+                            <li>Line speed up to 100 Megabits per second</li>
+                            <li>TV - 58 channels</li>
+                            <li>Unlimited internet usage</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Virgin Mix TV</h4>
+                            <li>18 month contract</li>
+                            <li>€30 per month</li>
+                            <li>50 channels + 15 in HD</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Virgin Full House TV</h4>
+                            <li>18 month contract</li>
+                            <li>€35 per month</li>
+                            <li>100 channels + 20 in HD</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>240Mb BB, Virgin World & Virgin Mix TV</h4>
+                            <li>18 month contract</li>
+                            <li>€49 for first 12 months, €88 thereafter</li>
+                            <li>Includes calls to Irish landlines and mobiles</li>
+                            <li>Line speed up to 240 Megabits per second</li>
+                            <li>TV - 50 channels + 15 in HD</li>
+                            <li>Unlimited internet usage</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>240Mb BB, Virgin World & Virgin Full House TV</h4>
+                            <li>18 month contract</li>
+                            <li>€40 for first 6 months, €80 thereafter</li>
+                            <li>Includes calls to Irish landlines and mobiles</li>
+                            <li>Line speed up to 240 Megabits per second</li>
+                            <li>TV - 100 channels + 20 in HD</li>
+                            <li>Unlimited internet usage</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>360Mb BB, Virgin World Unlimited & Virgin Full House TV</h4>
+                            <li>18 month contract</li>
+                            <li>€40 for first 6 months, €80 thereafter</li>
+                            <li>Includes calls to mobiles nationally and internationally</li>
+                            <li>Line speed up to 360 Megabits per second</li>
+                            <li>TV - 100 channels + 20 in HD</li>
+                            <li>Unlimited internet usage</li>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>TV Add-Ons</h4>
+                            <li>Virgin Mobile - €5 for first 6 months, €25 thereafter</li>
+                            <li>Sky Cinema - €20</li>
+                            <li>Sky Sports - €40</li>
+                            <li>Sky Sports & Cinema - €49</li>
+                            <li>Multiroom - €11</li>
+                            <li>HD - included in all TV bundles</li>
+                        </div>
+                    </div>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-12">
+            <h2>3</h2>
+            <div class="card stream1">
+                <img class="card_image" src="media/img/3-network.jpg" alt="Sky Go">
+                <div class="card_bottom">
+                    <h2>Mobile Broadband</h2>
+                    <ul style="display: none;">
+                        <li>Choose between a 30 day or 12, 18 or 24 month contract</li>
+                        <li>3GB allowance - €15.99 per month and €29 for modem</li>
+                        <li>Unlimited - €30 per month and free modem</li>
+                        <li>30 Day Rolling Contract - €30 per month, €149 for modem</li>
+                    </ul>
+                    <button class="bottom_button">Show</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <p>This is an experimental website and as a result, there is no guarantee that the details on this page are accurate. It has been constructed for display purposes only. I make no representations or warranties of any kind, express or implied, about
+            the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information
+            is therefore strictly at your own risk.</p>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <!-- Scripts located at the bottom of the body to insure page is fully loaded before execution -->
+</body>
+
+</html>
